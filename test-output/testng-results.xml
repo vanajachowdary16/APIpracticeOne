@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T21:54:26 IST" name="Default suite" finished-at="2025-04-28T21:54:28 IST" duration-ms="2386">
+  <suite started-at="2025-04-30T21:51:16 IST" name="Default suite" finished-at="2025-04-30T21:51:16 IST" duration-ms="360">
     <groups>
     </groups>
-    <test started-at="2025-04-28T21:54:26 IST" name="Default test" finished-at="2025-04-28T21:54:28 IST" duration-ms="2386">
-      <class name="Day3.LoggingDemo">
-        <test-method signature="testLog()[pri:0, instance:Day3.LoggingDemo@d86a6f]" started-at="2025-04-28T21:54:26 IST" name="testLog" finished-at="2025-04-28T21:54:28 IST" duration-ms="2334" status="PASS">
+    <test started-at="2025-04-30T21:51:16 IST" name="Default test" finished-at="2025-04-30T21:51:16 IST" duration-ms="360">
+      <class name="Day6.SerializationDeserialization">
+        <test-method signature="convertJson2Pojo()[pri:0, instance:Day6.SerializationDeserialization@7526515b]" started-at="2025-04-30T21:51:16 IST" name="convertJson2Pojo" finished-at="2025-04-30T21:51:16 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLog -->
-      </class> <!-- Day3.LoggingDemo -->
+        </test-method> <!-- convertJson2Pojo -->
+        <test-method signature="testSerialization()[pri:0, instance:Day6.SerializationDeserialization@7526515b]" started-at="2025-04-30T21:51:16 IST" name="testSerialization" finished-at="2025-04-30T21:51:16 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSerialization -->
+      </class> <!-- Day6.SerializationDeserialization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
